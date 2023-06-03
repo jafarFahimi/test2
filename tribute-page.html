@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./tribute-style.css" />
+      <title>Tribute Page</title>
+   </head>
+   <body>
+      <div class="container">
+         <h1>freeCodeCamp Survey Form</h1>
+         <p class="thank-text">Thank you for taking the time to help us improve the platform</p>
+         <section>
+            <form action="#">
+               <label for="name">Name</label>
+               <input id="name" name="name" type="text" placeholder="Enter your name" />
+
+               <label for="email">Email</label>
+               <input type="email" name="email" id="email" placeholder="enter your email" />
+
+               <label for="age">age</label>
+               <input type="range" name="age" id="age" placeholder="enter your age" />
+
+               <label for="role">Which option best describes your current role?</label>
+               <select name="role" id="role">
+                  <option value="student">student</option>
+                  <option value="full time job">full time job</option>
+                  <option value="other">other</option>
+               </select>
+
+               <label for="recommend">Would you recommend freeCodeCamp to a friend?</label>
+               <input type="radio" checked name="recommend-friend" value="Definitely" id="test" />
+               <input type="radio" name="recommend-friend" value="Maybe" id="" />
+               <input type="radio" name="recommend-friend" value="Not Sure" id="" />
+
+               <label for="favorite-feature">What is your favorite feature of freeCodeCamp?</label>
+               <select name="favorite" id="">
+                  <option value="challenges">challenges</option>
+                  <option value="prjects">prjects</option>
+                  <option value="community">community</option>
+               </select>
+            </form>
+         </section>
+      </div>
+   </body>
+</html>
