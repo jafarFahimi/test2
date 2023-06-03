@@ -31,8 +31,11 @@
 
                <label for="recommend">Would you recommend freeCodeCamp to a friend?</label>
                <input type="radio" checked name="recommend-friend" value="Definitely" id="test" />
-               <input type="radio" name="recommend-friend" value="Maybe" id="" />
-               <input type="radio" name="recommend-friend" value="Not Sure" id="" />
+               <label for="test">Definitely</label><br>
+               <input type="radio" name="recommend-friend" value="Maybe" id="maybe" />
+               <label for="maybe">Maybe</label><br>
+               <input type="radio" name="recommend-friend" value="Not Sure" id="not_sure" />
+               <label for="not sure">Not sure</label><br>
 
                <label for="favorite-feature">What is your favorite feature of freeCodeCamp?</label>
                <select name="favorite" id="">
@@ -40,6 +43,25 @@
                   <option value="prjects">prjects</option>
                   <option value="community">community</option>
                </select>
+
+               <label class="inline" for="see_improved">Would you recommend freeCodeCamp to a friend?</label>
+               <input type="checkbox" checked name="Challenges" value="Challenges" id="challenge" />
+               <label class="inline" for="challenge">Challenges</label><br>
+               <input type="checkbox" name="Front-end projects" value="Front-end projects" id="front_end" />
+               <label class="inline" for="front_end">Front-end projects</label><br>
+               <input type="checkbox" name="Back-end projects" value="Back-end projects" id="back_end" />
+               <label class="inline" for="back-end">Back-end projects</label><br>
+               <input type="checkbox" name="Gitter_help" value="Gitter help rooms" id="gitter_help" />
+               <label class="inline" for="gitter_help">Gitter help rooms</label><br>
+               <input type="checkbox" name="videoss" value="Videos" id="videos" />
+               <label class="inline" for="videos">Videos</label><br>
+
+               <label for="comments">Any comments or suggestions</label>
+
+               <textarea id="comments" name="comments" placeholder="Enter your comment here..." rows="4" cols="50"></textarea>
+
+               <button class="submitButton">Submit</button>
+               
             </form>
          </section>
       </div>
